@@ -1,0 +1,12 @@
+Creating a matrix:
+
+num1=int(input("Enter number of rows:"))
+num2=int(input("Enter number of columns:"))
+list=[]
+for i in range(num1):
+    row_list=[]
+    for i in range(num2):
+        col=int(input("Enter a num:"))
+        row_list+=[col]
+    list.append(row_list)
+print(list)
